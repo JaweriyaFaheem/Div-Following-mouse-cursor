@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: yellow;
+}
+
+#my-div {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(131, 131, 8);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(16,0,54,0.2);
+    transition: 0.1s ease-out;
+}
+
+.container {
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: center; 
+  }
+  
+  
+  .container h1 {
+    font-size: 24px;
+    color: #333; 
+    margin-bottom: 20px; 
+  }
+  
+  
+  .container p {
+    font-size: 16px;
+    color: #666; 
+    margin-bottom: 20px; 
+  }
+  
+  
+  .container input[type="text"] {
+    padding: 10px;
+    width: 60%; 
+    margin-bottom: 20px;
+  }
+  
+  
+  .container button {
+    padding: 10px 20px;
+    background-color: rgb(131, 131, 8); 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
